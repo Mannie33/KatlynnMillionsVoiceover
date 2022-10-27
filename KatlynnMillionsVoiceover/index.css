@@ -1,0 +1,279 @@
+/* Page General */
+body {
+    /* font-family: 'Lemon/Milk', sans-serif; */
+    font-family: 'Lemon/Milk light', sans-serif;
+    background-color: #F9F2ED;
+}
+
+.container-fluid {
+    margin: 3% 0;
+}
+
+
+/* Navigation Bar */
+nav {
+    background-color: #3AB0FF; 
+}
+
+.nav-item {
+    padding-right: 20px; 
+    text-decoration: none; 
+}
+
+.nav-link {
+    color: white;
+    text-align: right; 
+}
+
+.navbar-brand {
+    color: #F87474;
+    font-family: 'Satisfy', 'Arial Narrow', sans-serif;
+    font-size: 2rem; 
+    margin-left: 30px; 
+}
+
+.navbar-brand:hover {
+    color: #F9F2ED;
+    transition: color 1s ease-in;
+}
+
+
+/* Brand Header */
+.page-brand {
+    color: #F87474;
+    font-family: 'Satisfy', 'Arial Narrow', sans-serif;
+    font-size: 5rem; 
+    margin: 3% auto 0 auto;
+    text-align: center;
+}
+
+
+/* About Me */
+#aboutMe {
+    margin: 5% 0;
+}
+
+.bio-container {
+    align-items: center;
+    padding-bottom: 3%;
+}
+
+.bio-image {
+    border-radius: 50%; 
+    margin-right: 20px;
+    width: 300px;
+}
+
+.bio-title, .skill-title {
+    color: #F87474;
+}
+
+.bio-body, .skill-body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skill-container {
+    align-items: center;
+}
+
+.skill-desktop-view {
+    display: block; 
+}
+
+.skill-mobile-view {
+    display: none; 
+}
+
+.skill-image {
+    border-radius: 50%; 
+    margin-left: 20px;
+    width: 300px;
+}
+
+
+/* Testimonials */ 
+#testimonials {
+    background-color: #F87474;
+    padding: 5% 0;
+    text-align: center;
+}
+
+.indicators {
+    top: 300px;
+}
+
+.testimonial-body {
+    color: white;
+    padding: 0 25% 20px 25%;
+    font-size: 2rem; 
+}
+
+.testimonial-name {
+    color: white;
+    font-size: 1.5rem; 
+}
+
+.testimonial-whole {
+    height: 300px;
+}
+
+
+/* Demos */ 
+#demos {
+    padding: 5% 0;
+    text-align: center; 
+}
+
+.audio-bar {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    min-width: 100%;
+    border-radius: none; 
+}
+
+.demo-container {
+    transition: all 0.5s ease;
+    height: 200px; 
+    width: 400px;
+    position: relative; 
+    background-image: url(images/profile-photo-katlynn.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    border: solid #F87474 4px;
+}
+
+.demo-container:hover {
+    transition: all .8s ease-out;
+    background-blend-mode:soft-light;
+    background-color: #f9f2edee; 
+    border-color: #3AB0FF; 
+}
+
+
+
+/* Contact Me  */
+#contactMe {
+    background-color: #F87474; 
+    padding: 5% 0 1% 0; 
+}  
+
+.quote-header {
+    margin-bottom: 30px;
+}
+
+.generate-button {
+    border: #F87474 1px solid;
+    display: inline-block;
+    font-family: 'Lemon/Milk light', sans-serif;
+    margin-top: 3%;
+}
+
+.how-soon-section {
+    margin-bottom: 20px;
+}
+
+.quote-form {
+   background-color: #F9F2ED; 
+   border-radius: 20px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 3%;
+}
+
+.quote-header {
+    font-family: 'Lemon/Milk light', sans-serif;
+    text-align: center;
+}
+
+.quote-information {
+    display: inline;
+    font-family: 'Lemon/Milk light', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 50px;
+    vertical-align: bottom;
+}
+
+.quote-information a {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.0rem; 
+    margin-left: 20px;
+}
+
+.row {  
+    margin: auto;
+}
+
+.section-header-light {
+    color: white;
+    text-align: center;
+}
+
+.social-icon-container {
+    margin: 2%; 
+    text-align: center; 
+}
+
+.contact-me-icon {
+    color: white;
+    font-size: 3rem;  
+    padding: 0 20px; 
+}
+
+.contact-me-icon:hover {
+    color: #3AB0FF;
+}
+
+.copyright-logo {
+    font-size: 1.5rem; 
+}
+
+
+@media (max-width: 992px) {
+    .bio-body {
+        margin: 3% 15%; 
+    }
+
+    .bio-container {
+        padding-bottom: 0;
+    }
+
+    .bio-title {
+        text-align: center; 
+    }
+
+    .image-container {
+        margin: 3%; 
+        text-align: center;
+    }
+
+    .skill-body {
+        margin: 3% 15%; 
+    }
+
+    .skill-desktop-view {
+        display: none; 
+    }
+
+    .skill-image {
+        margin-left: 0;
+    }
+
+    .skill-mobile-view {
+        display: block; 
+    }
+
+    .skill-title {
+        text-align: center;
+    }
+
+    .indicators {
+        top: 400px;
+    }
+
+    .testimonial-whole {
+        height: 400px;
+    }
+    
+}

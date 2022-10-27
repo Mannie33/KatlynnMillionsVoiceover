@@ -1,0 +1,29 @@
+/* Form */
+.quote-header {
+    margin-bottom: 30px;
+}
+
+.email-contents {
+    background-color: #F87474;
+    border-radius: 20px;
+    padding: 3%;
+    margin-left: 20px;
+}
+
+.generate-button {
+    margin-top: 2%;
+}
+
+.how-soon-section {
+    margin-bottom: 20px;
+}
+
+.order-form {
+   background-color: #F87474; 
+   border-radius: 20px;
+   padding: 3%;
+}
+
+.row {
+    margin: auto;
+}
